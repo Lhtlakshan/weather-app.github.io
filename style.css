@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url('./img/thunderstorm-countryside.jpg');
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: auto;
+    height: auto;
+    margin: 10px;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./img/thunderstorm-countryside.jpg');
+    border: none;
+    border-radius: 10%;
+    box-shadow: #e3d4d4;
+    border-radius: 20px;
+}
+
+.background{
+    position: absolute;
+        /* Absolute position to cover the whole background */
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url('./img/thunderstorm-countryside.jpg');
+        background-repeat:no-repeat;
+        background-size: cover;
+        z-index: -1;
+        filter: blur(10px);
+}
+
+
+
+.current{
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    height: 70%;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    height: auto;
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+input{
+    min-width: 50px;
+    height: 20px;
+    margin: 10px;
+    margin-right: 5px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: medium;
+    border: none;
+    outline: none;
+}
+
+img{
+    width: 20px;
+    height: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button{
+    margin: 10px;
+    padding: 5px;
+    height: 40px;
+    min-width: 60px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: 600;
+    color: rgb(12, 91, 9);
+    background: linear-gradient(100deg, #83ea54, #03ba12);
+}
+
+button:hover{
+    background: #83ea54;
+}
+
+#title{
+    margin-left: 15px;
+    font-size: larger;
+    font-weight: 600;
+}
+
+select{
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: medium;
+    border: none;
+    outline: none;
+}
+
+#temp , #speed{
+    display: flex;
+    align-items: center;
+}
+
+#unit{
+    width: 50px;
+}
+
+span{
+    padding: 5px;
+    text-align: center;
+    position: inline;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#condition{
+    width: 80px;
+    height: 80px;
+}
+
+#tempTitle,#humidityTitle,#windSpeedTitle ,#HumidityTitle , #weatherDesTitle{
+    font-size: medium;
+    font-weight: 600;
+}
+
+table{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    margin: 20px ,0;
+}
+
+th{
+    padding: 5px;
+    text-align: center;
+    font-size: medium;
+    font-weight: 600;
+}
+
+td{
+    padding: 5px;
+    text-align: center;
+    font-size: medium;
+}
